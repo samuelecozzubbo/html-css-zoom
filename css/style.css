@@ -4,13 +4,42 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", "sans-serif";
+    color: white;
 }
 
 /* Blocchi */
 #wrapper{
     width: 100%;
     height: 100vh;
+    background-color: black;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+}
+
+/* Users */
+#users{
+    overflow-y: auto;
+    width: 20%;
+    padding: 80px 40px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.single-user{
+    position: relative;
+    margin: 10px;
+}
+
+.single-user img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-info{
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    background-color: gray;
 }
