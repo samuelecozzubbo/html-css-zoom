@@ -17,6 +17,14 @@
     flex-direction: column;
 }
 
+/* Upper-menu */
+#upper-menu{
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    z-index: 100;
+}
+
 /* Users */
 #users{
     overflow-y: auto;
@@ -26,8 +34,10 @@
     flex-shrink: 0;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 }
 
+/* Singolo utente */
 .single-user{
     position: relative;
     margin: 10px;
@@ -47,7 +57,7 @@
     background-color: gray;
 }
 
-/* Nav */
+/* Impostazioni barra menu */
 #main-nav{
     background-color: gray;
     width: 100%;
@@ -68,6 +78,7 @@
     gap: 20px;
 }
 
+/* Upper selector */
 .fa-microphone::after{
     border-style: solid;
     border-width: 0 0 0.15em 0.15em;
@@ -111,6 +122,12 @@
     transform: rotate(135deg);
     margin: 30px 20px 0;
     font-size: 20px;
+    color: white;
+}
+
+/* Green share button */
+.fa-share-from-square{
+    color: rgb(0, 255, 0);
 }
 
 ul div{
