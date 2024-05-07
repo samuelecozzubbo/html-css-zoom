@@ -21,15 +21,17 @@
 /* Users */
 #users{
     overflow-y: auto;
-    width: 20%;
+    width: 100%;
     padding: 80px 40px;
     flex-shrink: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .single-user{
     position: relative;
     margin: 10px;
+    width: 15%;
 }
 
 .single-user img{
