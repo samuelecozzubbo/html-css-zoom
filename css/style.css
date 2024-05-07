@@ -1,0 +1,16 @@
+/* Regole generali pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", "sans-serif";
+}
+
+/* Blocchi */
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
