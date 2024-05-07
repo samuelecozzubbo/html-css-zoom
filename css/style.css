@@ -25,6 +25,12 @@
     z-index: 100;
 }
 
+.menu-button{
+    background-color: rgb(67, 67, 67);
+    padding: 3px;
+    margin-left: 2px;
+}
+
 /* Users */
 #users{
     overflow-y: auto;
